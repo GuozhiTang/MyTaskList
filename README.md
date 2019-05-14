@@ -21,13 +21,13 @@ brew install node
 
 ### Installing
 
-Install the dependencies for the backend at root directory:
+* Install the dependencies for the backend at root directory:
 
 ```Bash
 npm install
 ```
 
-Then, install the dependencies for the angular frontend at client folder:
+* Then, install the dependencies for the angular frontend at client folder:
 
 ```Bash
 cd client
@@ -37,12 +37,12 @@ npm install
 
 ## Running the project
 
-First, run the MongoDB server:
+* First, run the MongoDB server:
 ```Bash
 mongod
 ```
 
-Then open a new terminal and change to the root directory
+* Then open a new terminal and change to the root directory to run the backend server:
 
 ```Bash
 nodemon
